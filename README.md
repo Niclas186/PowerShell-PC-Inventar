@@ -1,7 +1,5 @@
-# PowerShell-PC-Inventar
+# PowerShell-PC-Inventarisierung
 Powershellskript zur automatisierten Inventarisierung von Hardwarekomponenten innerhalb einer Netzwerkumgebung
-
-# PowerShell CSV-PC-Inventar
 
 Dieses PowerShell-Skript erfasst das Datum der Bestandsaufnahme, die IP- und MAC-Adresse, die Seriennummer, das Modell, die CPU, den RAM, die Gesamtspeichergröße, die GPU(s), das Betriebssystem, den Betriebssystem-Build, den angemeldeten Benutzer und die angeschlossenen Monitore ein Computer.
 
