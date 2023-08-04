@@ -17,10 +17,10 @@ Wenn die CSV-Datei nicht vorhanden ist, versucht das Skript, sie zu erstellen un
 
 Hier sind einige Möglichkeiten, dieses Skript bereitzustellen:
 
-- Ein PowerShell-Anmeldeskript-GPO
+- mit einer GPO die das PowerShell Skript beim Anmelden auführt 
 - Eine geplante Aufgabe
 - Eine unmittelbare Aufgabe
-- Fügen Sie es zu „shell:startup“ hinzu
+- Fügen es zu „shell:startup“ hinzu
 
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
@@ -30,15 +30,15 @@ ________________________________________________________________________________
 # Mögliche Fragen und Antworten
 
 ### Was passiert, wenn ich mehr als zwei GPUs oder mehr als drei Monitore habe?
-Das Skript kann leicht geändert werden, um dies zu mit zu erfassen-
+Das Skript kann leicht geändert werden, um diese Komponenten zu mit zu erfassen
 
-Wenn man beispielsweise über drei GPUs verfügen, ändern Sie einfach diesen Teil des Skripts so, dass er Folgendes enthält:
+Wenn man beispielsweise über drei GPUs verfügt, ändere einfach diesen Teil des Skripts so, dass er Folgendes enthält:
 
        $GPU0 = GetGPUInfo | Select-Object-Index 0
        $GPU1 = GetGPUInfo | Select-Object-Index 1
        $GPU2 = GetGPUInfo | Select-Object-Index 2
 
-Und fügen Sie Folgendes zum OutputToCSV-Funktionsteil des Skripts hinzu:
+Und füge Folgendes zum OutputToCSV-Funktionsteil des Skripts hinzu:
 
      Add-Member -InputObject $infoObject -MemberType NoteProperty -Name "GPU 1" -Value $GPU1
 
