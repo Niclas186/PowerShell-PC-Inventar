@@ -1,5 +1,5 @@
 # PowerShell-PC-Inventar
-Powershellskript zur automatisierten Inventariesierung von Hardwarekomponenten innerhalb einer Netzwerkumgebung
+Powershellskript zur automatisierten Inventarisierung von Hardwarekomponenten innerhalb einer Netzwerkumgebung
 
 # PowerShell CSV-PC-Inventar
 
