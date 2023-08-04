@@ -1,7 +1,7 @@
 # PowerShell-PC-Inventarisierung
-Powershellskript zur automatisierten Inventarisierung von Hardwarekomponenten innerhalb einer Netzwerkumgebung
+PowerShellskript zur automatisierten Inventarisierung von Hardwarekomponenten innerhalb einer Netzwerkumgebung
 
-Dieses PowerShell-Skript erfasst das Datum der Bestandsaufnahme, die IP- und MAC-Adresse, die Seriennummer, das Modell, die CPU, den RAM, die Gesamtspeichergröße, die GPU(s), das Betriebssystem, den Betriebssystem-Build, den angemeldeten Benutzer und die angeschlossenen Monitore ein Computer.
+Dieses PowerShellskript erfasst das Datum der Bestandsaufnahme, die IP- und MAC-Adresse, die Seriennummer, das Modell, die CPU, den RAM, die Gesamtspeichergröße, die GPU(s), das Betriebssystem, den Betriebssystem-Build, den angemeldeten Benutzer und die angeschlossenen Monitore ein Computer.
 
 Nachdem diese Informationen gesammelt wurden, werden sie in einer CSV-Datei ausgegeben. Zunächst wird die CSV-Datei (sofern vorhanden) überprüft, um festzustellen, ob der Hostname bereits in der Datei vorhanden ist.
 
@@ -15,7 +15,7 @@ Wenn die CSV-Datei nicht vorhanden ist, versucht das Skript, sie zu erstellen un
 
 Hier sind einige Möglichkeiten, dieses Skript bereitzustellen:
 
-- mit einer GPO die das PowerShell Skript beim Anmelden auführt 
+- mit einer GPO die das PowerShellskript beim Anmelden auführt 
 - einer geplanten Aufgabe
 - das Skript zu „shell:startup“ hinzufügen
 
