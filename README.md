@@ -16,9 +16,8 @@ Wenn die CSV-Datei nicht vorhanden ist, versucht das Skript, sie zu erstellen un
 Hier sind einige Möglichkeiten, dieses Skript bereitzustellen:
 
 - mit einer GPO die das PowerShell Skript beim Anmelden auführt 
-- Eine geplante Aufgabe
-- Eine unmittelbare Aufgabe
-- Fügen es zu „shell:startup“ hinzu
+- einer geplanten Aufgabe
+- das Skript zu „shell:startup“ hinzufügen
 
 
 _________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
